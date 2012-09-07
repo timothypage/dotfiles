@@ -94,3 +94,5 @@ set autoindent
 " Keep indentation level from previous line: ``set autoindent``
 
 " Folding based on indentation: ``set foldmethod=indent``
+au BufRead,BufNewFile *.go set filetype=go
+syntax on
