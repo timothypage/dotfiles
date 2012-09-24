@@ -1,5 +1,13 @@
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set number
 set nowrap
+syntax enable
+set background=dark
+set t_Co=16
+let g:solarized_termcolors=16
+colorscheme solarized
 highlight LineNr term=bold cterm=NONE ctermfg=LightGray ctermbg=DarkGrey gui=NONE guifg=DarkGrey guibg=NONE
 " vimrc file for following the coding standards specified in PEP 7 & 8.
 "
